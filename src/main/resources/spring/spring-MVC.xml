@@ -29,7 +29,7 @@
     
     
     
-    <!-- 引入tiles配置文件 -->
+    <!-- 引入tiles配置文件 
     <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer" >
         <property name="definitions">
             <list>
@@ -38,13 +38,12 @@
         </property>
     </bean>
 
-    <!-- 配置视图解析器 -->
+    配置视图解析器
     <bean id="tilesViewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         <property name="viewClass">
             <value>org.springframework.web.servlet.view.tiles3.TilesView</value>
         </property>
-    </bean>
+    </bean> -->
     
-    
-    
+    <import resource="classpath:spring/applicationContext-mybatis.xml"/>
 </beans>

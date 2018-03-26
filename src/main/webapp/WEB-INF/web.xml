@@ -12,13 +12,21 @@
 	        <param-name>contextConfigLocation</param-name>
 	        <param-value>
 	       <!-- dispatcher-servlet.xml文件路径 -->
-	       classpath:spring-MVC.xml
+	       classpath:spring/spring-MVC.xml
 	       </param-value>
 	    </init-param>
 	    <load-on-startup>1</load-on-startup>
 	</servlet>
+	<servlet-mapping>
+		<servlet-name>springmvc</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
 
 	
 
   <display-name>Archetype Created Web Application</display-name>
+  
+  <welcome-file-list>
+  	<welcome-file>index.do</welcome-file>
+  </welcome-file-list>
 </web-app>
