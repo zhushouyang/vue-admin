@@ -10,11 +10,11 @@ import javax.servlet.http.HttpServletResponse;
 
 public class RandomServlet extends HttpServlet {
 
-	public void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException{
-		int i=(int)(Math.random()*100);
+	public void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		int i = (int) (Math.random() * 100);
 		res.setContentType("text/html");
-		PrintWriter p=res.getWriter();
-		p.println("<p>" +i+ "</p>");
+		PrintWriter p = res.getWriter();
+		p.println("<p>" + i + "</p>");
 		p.close();
 	}
 }
