@@ -206,7 +206,7 @@
         <artifactId>maven-war-plugin</artifactId>  
         <version>2.4</version>  
         <configuration>  
-          <warName>SSM</warName>  
+          <warName>vue-admin</warName>  
           <!-- <packagingExcludes>  
           **/resources/**  
       </packagingExcludes> -->  

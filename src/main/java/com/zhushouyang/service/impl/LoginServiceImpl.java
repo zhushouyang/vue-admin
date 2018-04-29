@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.zhushouyang.dao.UserDao;
-import com.zhushouyang.mapper.UserMapper;
 import com.zhushouyang.model.User;
 import com.zhushouyang.service.LoginService;
 
